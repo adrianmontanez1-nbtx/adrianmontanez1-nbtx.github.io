@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Texas Military Transition Support</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Texas_flag_map.svg/2560px-Texas_flag_map.svg.png') no-repeat center/cover;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      background: rgba(0,0,0,0.6);
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
+    header p {
+      background: rgba(0,0,0,0.6);
+      display: inline-block;
+      padding: 5px 15px;
+      border-radius: 5px;
+    }
+    nav {
+      background: #002868;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      display: block;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background: #bf0a30;
+    }
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+    }
+    h2 {
+      color: #002868;
+    }
+    .cta {
+      background: #bf0a30;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      margin: 20px 0;
+      border-radius: 8px;
+    }
+    .cta a {
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    footer {
+      background: #002868;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+    .resource {
+      background: white;
+      margin: 10px 0;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .resource a {
+      color: #bf0a30;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .resource a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Texas Military Transition Support</h1>
+  <p>Helping Service Members & Families Navigate Civilian Life</p>
+</header>
+
+<nav>
+  <a href="#jobs">Jobs & Career</a>
+  <a href="#education">Education</a>
+  <a href="#housing">Housing</a>
+  <a href="#legal">Legal Aid</a>
+  <a href="#family">Family Support</a>
+</nav>
+
+<section id="intro">
+  <h2>Welcome</h2>
+  <p>Every year, thousands of service members transition out of the Armed Forces in Texas. This site connects you to the programs, benefits, and services available to help you succeed in civilian life.</p>
+  <div class="cta">
+    <a href="#contact">Get Started with a Transition Specialist</a>
+  </div>
+</section>
+
+<section id="jobs">
+  <h2>Jobs & Career Transition</h2>
+  <div class="resource">
+    <h3>Texas Workforce Commission (TWC)</h3>
+    <p>Priority job placement, resume help, and training programs.</p>
+    <a href="https://www.twc.texas.gov/services/veterans" target="_blank">Visit TWC Veterans Services</a>
+  </div>
+  <div class="resource">
+    <h3>Texas Veterans Commission (TVC)</h3>
+    <p>Free employment services, occupational licensing, and job matching.</p>
+    <a href="https://tvc.texas.gov/employment/" target="_blank">Explore TVC Employment Programs</a>
+  </div>
+</section>
+
+<section id="education">
+  <h2>Education & Skills Recognition</h2>
+  <div class="resource">
+    <h3>College Credit for Heroes</h3>
+    <p>Get academic credit for your military service to fast-track degrees and certifications.</p>
+    <a href="https://www.twc.texas.gov/services/veterans" target="_blank">Learn More</a>
+  </div>
+</section>
+
+<section id="housing">
+  <h2>Housing & Financial Assistance</h2>
+  <div class="resource">
+    <h3>Texas Veterans Land Board (VLB)</h3>
+    <p>Low-interest loans for land, homes, and home improvement projects.</p>
+    <a href="https://vlb.texas.gov" target="_blank">Visit VLB Website</a>
+  </div>
+</section>
+
+<section id="legal">
+  <h2>Legal Aid & Benefits</h2>
+  <div class="resource">
+    <h3>Texas Veterans Legal Assistance Project (VLAP)</h3>
+    <p>Free civil legal services for veterans and their families.</p>
+    <a href="https://texvet.org/resources/texas-veterans-legal-assistance-project-vlap" target="_blank">Get Legal Help</a>
+  </div>
+</section>
+
+<section id="family">
+  <h2>Family & Transition Support</h2>
+  <div class="resource">
+    <h3>Transition Assistance Program (TAP)</h3>
+    <p>Prepare for civilian life with resources for education, jobs, and more.</p>
+    <a href="https://www.dodtap.mil" target="_blank">Visit TAP</a>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact a Transition Specialist</h2>
+  <p>Email: <a href="mailto:info@texasveterans.org">info@texasveterans.org</a></p>
+  <p>Hotline: <strong>800-252-8032</strong></p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Texas Military Transition Support | Serving Those Who Served</p>
+</footer>
+
+</body>
+</html>
